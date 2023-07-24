@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .main{
+    background-color: blue; 
+  }
+  .headline p{
+    padding: 5px;
+    margin: 0;
+    margin-top: 25px;
+    text-transform: uppercase;
+    color: rgb(173, 172, 172);
+  }
+  .headline h1{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0px;
+    color: rgb(218, 216, 216);
+  }
+  .headline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: blue; */
+  }
+  .pricing-container {
+    display: flex;
+    gap: 3rem;
+    height: 85vh;
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .pricing-plan {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(238, 244, 244);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+    /* flex-shrink: 1; */
+  }
+  .emoji {
+    font-size: 36px;
+    margin: 10px;
+  }
+  .pricing-title {
+    font-size: large;
+    color: rgb(245, 199, 121);
+    margin-bottom: 20px;
+    font-weight: normal;
+  }
+  .pricing-price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(4, 4, 158);
+  }
+  .plan-features {
+    padding: 0;
+    list-style: none;
+    margin: 30px;
+  }
+  .plan-features li {
+    color: rgb(145, 146, 148);
+    margin-bottom: 10px;
+  }
+  .popular {
+    padding: 0px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .popular h1 {
+    font-size: 1.2rem;
+    padding: 8px;
+    margin-top: 0px;
+    color: rgb(94, 94, 233);
+    background-color: rgb(245, 194, 111);
+    border-radius: 5px;
+  }
+  .most .plan-features {
+    margin-bottom: 10px;
+  }
+  .most {
+    height: 450px;
+    padding-top: 0;
+  }
+  .get-start {
+    background-color: rgb(6, 6, 252);
+    padding: 10px;
+    border: none;
+    /* width: 100px; */
+  }
